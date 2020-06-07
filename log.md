@@ -1,30 +1,23 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 0: June 7th, 2020
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
-
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
-
-**Link to work:** [Calculator App](http://www.example.com)
-
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
-
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
-
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
-
-**Link(s) to work**: [Calculator App](http://www.example.com)
-
-
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+**Today's Progress**: 
+ * Forked the repo and added phase plan.
+ * Updated the software `sudo motion update`. `motion --version` reports `7.5`
+ * SDK out of date following the RubyMotion update - had `13.4` - updated to `13.5`
+ * Read about [Test Flight](https://developer.apple.com/testflight/). Should be useful for beta testing.
+ * The main object for the interaction is the [CLLocationManager](https://developer.apple.com/documentation/corelocation/cllocationmanager)
+ 
+**Thoughts:** 
+ * Looking forward to building the application.  
+ * The longest journey begins with the first step.
+ * Wondering if the `CLLocationManager` is the correct approach.  Will go with that for now, but the location
+accuracy might not be good enough.  Considering using [IOBluetoothDeviceInquiry](https://developer.apple.com/documentation/iobluetooth/iobluetoothdeviceinquiry)
+ instead.  More [reading](https://developer.apple.com/library/archive/documentation/NetworkingInternetWeb/Conceptual/CoreBluetooth_concepts/AboutCoreBluetooth/Introduction.html#//apple_ref/doc/uid/TP40013257)
+  required if changing to Bluetooth approach.
+ * XCode takes an age to download :-(
+ * It's ruby code, but not as we know it!
+ 
+**Link to work:** 
+![C19MotionTracker App](progress_screen_shot.png)

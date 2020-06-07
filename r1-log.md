@@ -1,10 +1,15 @@
-# #100DaysOfCode Log - Round 1 - [Your Name Here]
+# #100DaysOfCode Log - Round 1 - Eddie
 
-The log of my #100DaysOfCode challenge. Started on [July 17, Monday, 2017].
+The log of my #100DaysOfCode challenge. Started on June 7, Sunday, 2020.
 
 ## Log
 
-### R1D1 
-Started a Weather App. Worked on the draft layout of the app, struggled with OpenWeather API http://www.example.com
+### R1D0
+Setting up the application.  
+Going to work on a RubyMotion project as I've not used it before.
+The vision for the project is to be able to track location minute by minute
 
+### R1D1 
+TBD
 ### R1D2
+TBD
