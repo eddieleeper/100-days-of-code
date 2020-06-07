@@ -1,3 +1,26 @@
+# C19 Motion Tracker
+With the current focus on track and trace for the Covid-19 virus I thought I'd try using
+ruby motion to create a mobile app that enables tracking of location and proximity alerting.
+
+I've not used [RubyMotion](http://www.rubymotion.com/) or done any iOS development before so thought it a good project for the 100 days of code project.
+
+[Daily log](log.md)
+
+## Rough phase plan
+### Phase 1 - Goal display current location
+ - [x] Install ruby motion and run any updates
+ - [ ] Smoke test the dev environment
+ - [ ] Write the first test
+ - [ ] App displays current location
+### Phase 2 - Store current location
+ - [ ] App records location every minute
+ - [ ] Display list of time and location
+ - [ ] Look into how to get the app on a real iPhone
+### Phase 3
+ - [ ] Build a web service to receive location and identifiers from multiple clients
+### Phase 4
+ - [ ] App receives notifications for proximity alerts
+
 # I've joined the #100DaysOfCode Challenge
 
 ## Contents
