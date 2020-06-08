@@ -9,9 +9,9 @@ I've not used [RubyMotion](http://www.rubymotion.com/) or done any iOS developme
 ## Rough phase plan
 ### Phase 1 - Goal display current location
  - [x] Install ruby motion and run any updates
- - [ ] Smoke test the dev environment
+ - [x] Smoke test the dev environment
  - [ ] Write the first test
- - [ ] App displays current location
+ - [x] App displays current location
 ### Phase 2 - Store current location
  - [ ] App records location every minute
  - [ ] Display list of time and location

@@ -1,5 +1,22 @@
 # 100 Days Of Code - Log
 
+### Day 1: June 8th, 2020
+
+**Today's Progress**: 
+ * Displayed the location.
+ * Simple observer so that UI updates when the location changes
+ * Added button to manually update the location (superceded by the observer)
+
+**Thoughts:** 
+ * Minimal time for the project today - and started very late.
+ * Decided to just push to master in these early stages.
+ * Simulator has nice features for testing location.
+ * Wonder if I could add a map to show the location?
+ 
+**Link to work:** 
+![C19MotionTracker App](progress_screen_shot2.png)
+
+
 ### Day 0: June 7th, 2020
 
 **Today's Progress**: 

@@ -10,6 +10,8 @@ Going to work on a RubyMotion project as I've not used it before.
 The vision for the project is to be able to track location minute by minute
 
 ### R1D1 
-TBD
+Later than I would have liked to start on this.
+Added simple observer for the UI to be updated when the location changes.
+
 ### R1D2
 TBD
