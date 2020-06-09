@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 2: June 9th, 2020
+**Today's Progress**: 
+ * Added a timer.
+ * Spent too long looking into the table view and storage.
+ * Spent one hour
+   
+**Thoughts:** 
+ * Experimented with table views and storage, but didn't get it working.
+ * Still thinking about the map to show the location and changes in location.
+    
+**Link to work:** 
+ * no major change in the UI from yesterday. 
+
 ### Day 1: June 8th, 2020
 
 **Today's Progress**: 

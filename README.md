@@ -4,6 +4,8 @@ ruby motion to create a mobile app that enables tracking of location and proximi
 
 I've not used [RubyMotion](http://www.rubymotion.com/) or done any iOS development before so thought it a good project for the 100 days of code project.
 
+Will spend at least one hour per day, but not more than two hours per day, so that I can get a sense of what can be built in 100-200 hours.
+
 [Daily log](log.md)
 
 ## Rough phase plan
