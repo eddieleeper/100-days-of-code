@@ -3,15 +3,12 @@ class LocationController < UIViewController
     value_label('Unknown Location')
     button_for('Update', 260)
     @location_service = LocationService.new(self)
-    NSTimer.scheduledTimerWithTimeInterval(60, target: self, selector: 'timer_fired', userInfo:nil, repeats:true)
+    @timer_service = TimerService.new(self, 60)
+
   end
 
   def notify
     @value.text = @location_service.location.to_s
-  end
-
-  def timer_fired
-    @value.text = 'Store location'
   end
 
   private

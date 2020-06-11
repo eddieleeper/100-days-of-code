@@ -49,6 +49,7 @@ Motion::Project::App.setup do |app|
   #    Default libraries: UIKit, Foundation, CoreGraphics, CoreFoundation, CFNetwork, CoreAudio
   # ===========================================================================================
   # app.frameworks << "StoreKit"
+  app.frameworks << 'MapKit'
   app.frameworks << 'CoreLocation'
   # Description for the Location service allow dialog
   app.info_plist['NSLocationAlwaysAndWhenInUseUsageDescription'] = 'COVID-19 Tracker - Always'

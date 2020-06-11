@@ -1,5 +1,29 @@
 # 100 Days Of Code - Log
 
+### Day 4: June 11th, 2020
+**Today's Progress**: 
+ * Add a map view
+ * Add location pin to the map view
+ 
+**Thoughts:** 
+ * Interesting watching the simulator update while tracking the freeway drive test simulation.
+ * Still concerned about the test framework not behaving as expected.
+ * Plan to integrate the timer and remove pins as appropriate.
+   
+**Link to work:** 
+ * ![C19MotionTracker App](progress_screen_shot3.png)  
+
+
+### Day 3: June 10th, 2020
+**Today's Progress**: 
+ * Successfully found various ways for the tests not to work!  
+**Thoughts:** 
+ * Experimented with testing but didn't get it working.  There must be some dependencies that I'm unaware of.
+ As this is basically the initial spike work I'm not too worried about the missing tests.  I'll work some more on the tests very soon.
+    
+**Link to work:** 
+ * No real progress.
+
 ### Day 2: June 9th, 2020
 **Today's Progress**: 
  * Added a timer.

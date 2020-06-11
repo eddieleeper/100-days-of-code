@@ -14,9 +14,19 @@ class LocationService
     "#{@long}:#{@lat}"
   end
 
+  def longitude
+    @longitude
+  end
+
+  def latitude
+    @latitude
+  end
+
   def locationManager(manager, didUpdateToLocation:newLocation, fromLocation:oldLocation)
     @lat =  "#{newLocation.coordinate.latitude}"
     @long = "#{newLocation.coordinate.longitude}"
+    @latitude =  newLocation.coordinate.latitude
+    @longitude = newLocation.coordinate.longitude
     @observer.notify
   end
 
