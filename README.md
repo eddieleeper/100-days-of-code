@@ -12,16 +12,20 @@ Will spend at least one hour per day, but not more than two hours per day, so th
 ### Phase 1 - Goal display current location
  - [x] Install ruby motion and run any updates
  - [x] Smoke test the dev environment
- - [ ] Write the first test
+ - [X] Write the first test
  - [x] App displays current location
 ### Phase 2 - Store current location
- - [ ] App records location every minute
+ - [x] App records location every minute
  - [ ] Display list of time and location
  - [ ] Look into how to get the app on a real iPhone
 ### Phase 3
  - [ ] Build a web service to receive location and identifiers from multiple clients
 ### Phase 4
  - [ ] App receives notifications for proximity alerts
+### Phase 5
+ - [ ] Use bluetooth for proximity alerts
+ 
+ 
 
 # I've joined the #100DaysOfCode Challenge
 

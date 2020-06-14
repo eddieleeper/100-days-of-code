@@ -1,6 +1,7 @@
 class LocationService
-  def initialize(observer)
-    @observer = observer
+  attr_reader :longitude, :latitude
+
+  def initialize
     @location_manager = CLLocationManager.alloc.init.tap do |lm|
       lm.requestAlwaysAuthorization
 
@@ -11,23 +12,12 @@ class LocationService
   end
 
   def location
-    "#{@long}:#{@lat}"
-  end
-
-  def longitude
-    @longitude
-  end
-
-  def latitude
-    @latitude
+    "#{@longitude}:#{@latitude}"
   end
 
   def locationManager(manager, didUpdateToLocation:newLocation, fromLocation:oldLocation)
-    @lat =  "#{newLocation.coordinate.latitude}"
-    @long = "#{newLocation.coordinate.longitude}"
     @latitude =  newLocation.coordinate.latitude
     @longitude = newLocation.coordinate.longitude
-    @observer.notify
   end
 
   def locationManager(manager, didFailWithError:error)

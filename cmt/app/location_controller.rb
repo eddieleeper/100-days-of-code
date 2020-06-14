@@ -1,17 +1,27 @@
 class LocationController < UIViewController
-  def viewDidLoad
-    value_label('Unknown Location')
-    button_for('Update', 260)
-    @location_service = LocationService.new(self)
-    @timer_service = TimerService.new(self, 60)
-
+  def init
+    if super
+      self.tabBarItem = UITabBarItem.alloc.initWithTitle('List', image: UIImage.imageNamed('list.png'), tag: 1)
+    end
+    self
   end
 
-  def notify
-    @value.text = @location_service.location.to_s
+  def viewDidLoad
+    @timer_service = TimerService.new(5)
+    @timer_service.add_observer(self)
+    value_label('Waiting for Location')
+    button_for('Update', 260)
+  end
+
+  def update
+    @value.text = location_service.location.to_s
   end
 
   private
+
+  def location_service
+    @location_service ||= LocationService.new
+  end
 
   def value_label(initial_text, margin = 20)
     @value                 = UILabel.new
@@ -25,12 +35,11 @@ class LocationController < UIViewController
   end
 
   def button_for(caption, position, margin = 20)
-    button = UIButton.buttonWithType(UIButtonTypeRoundedRect)
+    button      = UIButton.buttonWithType(UIButtonTypeRoundedRect)
     button.font = UIFont.systemFontOfSize(30)
     button.setTitle(caption, forState: UIControlStateNormal)
-    button.addTarget(self, action: 'notify', forControlEvents: UIControlEventTouchUpInside)
+    button.addTarget(self, action: 'update', forControlEvents: UIControlEventTouchUpInside)
     button.frame = [[margin, position], [view.frame.size.width - margin * 2, 40]]
     view.addSubview(button)
   end
-
 end
