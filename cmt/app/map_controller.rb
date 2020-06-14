@@ -1,10 +1,22 @@
 class MapController < UIViewController
+  def init
+    if super
+      self.tabBarItem = UITabBarItem.alloc.initWithTitle('Map', image:UIImage.imageNamed('map.png'), tag:1)
+    end
+    self
+  end
+
   def viewDidLoad
     @map_view          = MKMapView.alloc.initWithFrame(view.bounds)
     @map_view.delegate = self
     @map_view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight
     view.addSubview(@map_view)
-    @location_service = LocationService.new(self)
+    @location_service = LocationService.new
+
+  end
+
+  def timer_fired
+    NSLog("Timer fired - storing location #{@location_service.location}")
   end
 
   def notify

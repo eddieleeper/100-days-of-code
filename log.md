@@ -1,5 +1,30 @@
 # 100 Days Of Code - Log
 
+### Day 7: June 14th, 2020
+**Today's Progress**: 
+ * Added tab view to be able to switch between the map and the detail
+ * Add basic observable module for the timer
+  
+**Thoughts:** 
+ * Bluetooth is not available in the simulator, so paused that until I get a dev licence
+ * Look into storage for the locations.
+ * Update the view to be a table view of locations
+   
+**Link to work:** 
+ * ![C19MotionTracker App](progress_screen_shot4.png)  
+
+
+### Day 6: June 13th, 2020
+**Today's Progress**:
+ * Read up on testing.
+ 
+**Thoughts:**
+ * Add bluetooth device scan
+ * Add table view of locations (all?, past week? past two weeks?)
+
+### Day 5: June 12th, 2020
+** No progress - too many other priority commitments
+
 ### Day 4: June 11th, 2020
 **Today's Progress**: 
  * Add a map view
