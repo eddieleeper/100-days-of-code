@@ -5,10 +5,24 @@
  * Add storage for the locations
   
 **Thoughts:** 
- * Update the view to be a table view of the stored locations
+ * Will be nice in the next hours to update the view to be a table view of the stored locations
    
 **Link to work:** 
- * ![C19MotionTracker App](progress_screen_shot5.png)  
+```bash
+Cmt::Location
+  - stores the latitude, longitude and time of creation
+
+Cmt::LocationStore
+  - is a singleton
+  - is initialized with no locations
+  - stores locations
+
+Application 'cmt'
+  - has two windows
+
+TimerService
+  - fires the timer
+```
 
 
 ### Day 8: June 15th, 2020
