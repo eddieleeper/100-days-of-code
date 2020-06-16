@@ -7,14 +7,17 @@ class LocationController < UIViewController
   end
 
   def viewDidLoad
-    @timer_service = TimerService.new(5)
+    @location_store = Cmt::LocationStore.store
+    @timer_service ||= TimerService.new(5)
     @timer_service.add_observer(self)
     value_label('Waiting for Location')
     button_for('Update', 260)
   end
 
   def update
-    @value.text = location_service.location.to_s
+    location = Cmt::Location.new(location_service.latitude, location_service.longitude, Time.now)
+    @location_store << location
+    @value.text = location.to_s
   end
 
   private

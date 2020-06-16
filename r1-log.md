@@ -14,4 +14,4 @@ Later than I would have liked to start on this.
 Added simple observer for the UI to be updated when the location changes.
 
 ### R1D2
-TBD
+Logging progress in the [main log file](log.md)

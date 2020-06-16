@@ -1,5 +1,20 @@
 # 100 Days Of Code - Log
 
+### Day 9: June 16th, 2020
+**Today's Progress**: 
+ * Add storage for the locations
+  
+**Thoughts:** 
+ * Update the view to be a table view of the stored locations
+   
+**Link to work:** 
+ * ![C19MotionTracker App](progress_screen_shot5.png)  
+
+
+### Day 8: June 15th, 2020
+**Today's Progress**:
+ * Working on other priority projects.
+
 ### Day 7: June 14th, 2020
 **Today's Progress**: 
  * Added tab view to be able to switch between the map and the detail
